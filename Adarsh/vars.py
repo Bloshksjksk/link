@@ -28,7 +28,7 @@ class Var(object):
 
     PORT = int(getenv('PORT', 8000))
 
-    BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
+    BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '4.186.33.169'))
 
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 
@@ -40,7 +40,7 @@ class Var(object):
                           
     NO_PORT = bool(getenv('NO_PORT', False))
 
-    APP_NAME= str(getenv('APP_NAME','fastlink-39f7f5a4099e'))
+    APP_NAME= str(getenv('APP_NAME','4.186.33.169'))
 
 #    APP_NAME = str(getenv('APP_NAME','filetolinktb.onrender.com')) #@fligher
 
