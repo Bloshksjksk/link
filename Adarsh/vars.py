@@ -12,11 +12,11 @@ class Var(object):
 
     MULTI_CLIENT = False
 
-    API_ID = int(getenv('API_ID',"4682685"))
+    API_ID = int(getenv('API_ID'))
 
-    API_HASH = str(getenv('API_HASH',"3eba5d471162181b8a3f7f5c0a23c307"))
+    API_HASH = str(getenv('API_HASH'))
 
-    BOT_TOKEN = str(getenv('BOT_TOKEN',"5544919313:AAGInu1jJdrdiNRjDNh2hqk1akzPNu5rfiI"))
+    BOT_TOKEN = str(getenv('BOT_TOKEN'))
 
     SESSION_NAME = str(getenv('SESSION_NAME', 'filetolinkbot'))
 
