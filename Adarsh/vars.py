@@ -12,11 +12,11 @@ class Var(object):
 
     MULTI_CLIENT = False
 
-    API_ID = int(getenv('API_ID'))
+    API_ID = int(getenv('API_ID',"4682685"))
 
-    API_HASH = str(getenv('API_HASH'))
+    API_HASH = str(getenv('API_HASH',"3eba5d471162181b8a3f7f5c0a23c307"))
 
-    BOT_TOKEN = str(getenv('BOT_TOKEN'))
+    BOT_TOKEN = str(getenv('BOT_TOKEN',"5544919313:AAGInu1jJdrdiNRjDNh2hqk1akzPNu5rfiI"))
 
     SESSION_NAME = str(getenv('SESSION_NAME', 'filetolinkbot'))
 
@@ -28,7 +28,7 @@ class Var(object):
 
     PORT = int(getenv('PORT', 8000))
 
-    BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
+    BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '20.235.200.240'))
 
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 
