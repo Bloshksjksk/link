@@ -28,7 +28,7 @@ class Var(object):
 
     PORT = int(getenv('PORT', 8000))
 
-    BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '20.235.200.240'))
+    BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
 
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 
